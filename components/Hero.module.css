@@ -1,0 +1,160 @@
+.hero {
+  background: linear-gradient(135deg, #00d4ff 0%, #5b8def 50%, #6366f1 100%);
+  color: #fff;
+  padding: 120px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(
+    circle at 30% 50%,
+    rgba(255, 255, 255, 0.1) 0%,
+    transparent 50%
+  );
+  pointer-events: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.heroContent {
+  flex: 1;
+  max-width: 600px;
+  text-align: left;
+}
+
+.heroImage {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+}
+
+.heroTitle {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+}
+
+.highlight {
+  display: block;
+  color: #fff;
+  opacity: 0.95;
+}
+
+.heroSubtitle {
+  font-size: 1.25rem;
+  margin-bottom: 2.5rem;
+  line-height: 1.8;
+  opacity: 0.95;
+}
+
+.heroButtons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.btn {
+  display: inline-block;
+  padding: 14px 36px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.btnPrimary {
+  background-color: #fff;
+  color: #6366f1;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.btnPrimary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+  filter: brightness(1.05);
+}
+
+.btnSecondary {
+  background-color: transparent;
+  color: #fff;
+  border: 2px solid rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
+}
+
+.btnSecondary:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+  border-color: #fff;
+  color: #fff;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .hero {
+    padding: 80px 0;
+  }
+
+  .container {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .heroContent {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .heroImage {
+    order: -1;
+  }
+
+  .image {
+    max-width: 100%;
+  }
+
+  .heroTitle {
+    font-size: 2.5rem;
+  }
+
+  .heroSubtitle {
+    font-size: 1.1rem;
+  }
+
+  .heroButtons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .btn {
+    width: 100%;
+    max-width: 300px;
+  }
+}
+

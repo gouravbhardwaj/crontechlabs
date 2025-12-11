@@ -1,0 +1,122 @@
+.productsPage {
+  min-height: 100vh;
+}
+
+.hero {
+  background: linear-gradient(135deg, #00d4ff 0%, #5b8def 50%, #6366f1 100%);
+  color: #fff;
+  padding: 100px 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(
+    circle at 30% 50%,
+    rgba(255, 255, 255, 0.1) 0%,
+    transparent 50%
+  );
+  pointer-events: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  position: relative;
+  z-index: 1;
+}
+
+.heroTitle {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.heroSubtitle {
+  font-size: 1.3rem;
+  opacity: 0.95;
+}
+
+.section {
+  padding: 80px 0;
+}
+
+.introText {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #666;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 3rem;
+}
+
+.productsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.comingSoonSection {
+  background-color: #f8f9fa;
+  text-align: center;
+}
+
+.sectionTitle {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #1a1a1a;
+}
+
+.sectionSubtitle {
+  font-size: 1.1rem;
+  color: #666;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .hero {
+    padding: 60px 0;
+  }
+
+  .heroTitle {
+    font-size: 2.5rem;
+  }
+
+  .heroSubtitle {
+    font-size: 1.1rem;
+  }
+
+  .section {
+    padding: 60px 0;
+  }
+
+  .introText {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .productsGrid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .sectionTitle {
+    font-size: 2rem;
+  }
+
+  .sectionSubtitle {
+    font-size: 1rem;
+  }
+}
+
