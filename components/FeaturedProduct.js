@@ -8,7 +8,7 @@ export default function FeaturedProduct() {
         <div className={styles.content}>
           <div className={styles.imageContainer}>
             <img
-              src="https://via.placeholder.com/800x600?text=Postbold+Dashboard"
+              src="/linkedin-text-formatter-min.webp"
               alt="Postbold - LinkedIn Content Creation Solution"
               className={styles.featuredImage}
             />
@@ -54,10 +54,10 @@ export default function FeaturedProduct() {
               </div>
             </div>
             <div className={styles.ctaButtons}>
-              <a href="/contact" className={styles.primaryButton}>
+              <a href="https://postbold.com" className={styles.primaryButton}>
                 Get Started
               </a>
-              <a href="/products" className={styles.secondaryButton}>
+              <a href="https://postbold.com/linkedIn-text-formatter" className={styles.secondaryButton}>
                 Learn More
               </a>
             </div>

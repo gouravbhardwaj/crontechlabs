@@ -31,17 +31,17 @@ export default function ProductsPage() {
             <ProductCard
               title="AI Utility Tools"
               description="A comprehensive suite of AI-powered utilities that automate repetitive tasks and enhance productivity. From intelligent document processing to automated data analysis, our AI tools help businesses work smarter, not harder. Built with cutting-edge machine learning technology."
-              image="https://via.placeholder.com/600x400?text=AI+Utility+Tools"
+              image="/ai automation.jpg"
             />
             <ProductCard
               title="Automation Scripts"
               description="Custom automation solutions that streamline workflows and reduce manual effort. Our automation scripts integrate seamlessly with your existing systems, handling everything from data synchronization to report generation. Save time and reduce errors with intelligent automation."
-              image="https://via.placeholder.com/600x400?text=Automation+Scripts"
+              image="/automation_tools.jpg"
             />
             <ProductCard
               title="Web & Mobile Apps"
               description="Cross-platform applications that deliver exceptional user experiences. Our web and mobile apps are built with modern frameworks, ensuring fast performance, intuitive interfaces, and seamless functionality across all devices. Perfect for businesses looking to expand their digital presence."
-              image="https://via.placeholder.com/600x400?text=Web+%26+Mobile+Apps"
+              image="/mobileapp-min.jpg"
             />
           </div>
         </div>
