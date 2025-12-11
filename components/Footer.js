@@ -50,8 +50,8 @@ export default function Footer() {
           <div className={styles.footerSection}>
             <h4 className={styles.footerHeading}>Contact</h4>
             <ul className={styles.footerLinks}>
-              <li>Email: info@crontechlabs.com</li>
-              <li>Phone: +1 (555) 123-4567</li>
+              <li>Email: contactus@crontechlabs.com</li>
+             
             </ul>
           </div>
         </div>
