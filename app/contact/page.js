@@ -75,7 +75,7 @@ export default function ContactPage() {
         <div className={styles.container}>
           <h1 className={styles.heroTitle}>Get In Touch</h1>
           <p className={styles.heroSubtitle}>
-            Have a project in mind? Let's discuss how we can help
+            Have a project in mind? Lets discuss how we can help
           </p>
         </div>
       </section>

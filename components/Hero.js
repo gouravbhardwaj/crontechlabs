@@ -13,7 +13,7 @@ export default function Hero() {
           <p className={styles.heroSubtitle}>
             We deliver end-to-end technology solutions that drive growth and
             innovation. From full-stack development to Salesforce consulting,
-            we're your trusted technology partner.
+            we&apos;re your trusted technology partner.
           </p>
           <div className={styles.heroButtons}>
             <Link href="/contact" className={`${styles.btn} ${styles.btnPrimary}`}>

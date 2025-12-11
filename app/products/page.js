@@ -52,7 +52,7 @@ export default function ProductsPage() {
         <div className={styles.container}>
           <h2 className={styles.sectionTitle}>More Products Coming Soon</h2>
           <p className={styles.sectionSubtitle}>
-            We're constantly innovating and developing new solutions. Stay tuned
+            We&apos;re constantly innovating and developing new solutions. Stay tuned
             for exciting product launches!
           </p>
         </div>

@@ -139,7 +139,7 @@ export default function Home() {
         <div className={styles.container}>
           <h2 className={styles.sectionTitle}>Featured Products & Tools</h2>
           <p className={styles.sectionSubtitle}>
-            Innovative solutions we've built to solve real-world problems
+            Innovative solutions we&apos;ve built to solve real-world problems
           </p>
           <div className={styles.productsGrid}>
             <ProductCard
@@ -171,7 +171,7 @@ export default function Home() {
         <div className={styles.container}>
           <h2 className={styles.sectionTitle}>What Our Clients Say</h2>
           <p className={styles.sectionSubtitle}>
-            Don't just take our word for it—hear from our satisfied clients
+            Don&apos;t just take our word for it—hear from our satisfied clients
           </p>
           <div className={styles.testimonialsGrid}>
             <TestimonialCard
@@ -202,7 +202,7 @@ export default function Home() {
           <div className={styles.contactCTA}>
             <h2 className={styles.ctaTitle}>Ready to Get Started?</h2>
             <p className={styles.ctaDescription}>
-              Let's discuss how we can help transform your business with smart
+              Let&apos;s discuss how we can help transform your business with smart
               digital solutions.
             </p>
             <Link href="/contact" className={styles.ctaButton}>
