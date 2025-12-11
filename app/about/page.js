@@ -27,13 +27,13 @@ export default function AboutPage() {
                 end-to-end solutions.
               </p>
               <p>
-                Today, we're a trusted technology company offering comprehensive
+                Today, we are a trusted technology company offering comprehensive
                 product development and digital solutions. Our team of expert
                 developers, consultants, and engineers work collaboratively to
                 deliver projects that drive real business value.
               </p>
               <p>
-                From startups to established enterprises, we've helped
+                From startups to established enterprises, we have helped
                 organizations across various industries transform their digital
                 presence, streamline operations, and achieve their business
                 goals through innovative technology solutions.
